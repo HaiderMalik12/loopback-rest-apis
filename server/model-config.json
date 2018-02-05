@@ -37,5 +37,9 @@
   },
   "Message": {
     "dataSource": null
+  },
+  "Customer": {
+    "dataSource": "db",
+    "public": true
   }
 }
