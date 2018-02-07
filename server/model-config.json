@@ -39,7 +39,7 @@
     "dataSource": null
   },
   "Customer": {
-    "dataSource": "mongodbDs",
+    "dataSource": "mysqlDs",
     "public": true
   }
 }

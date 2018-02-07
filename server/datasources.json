@@ -9,5 +9,14 @@
     "database": "lb_db",
     "name": "mongodbDs",
     "connector": "mongodb"
+  },
+  "mysqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "lb_db",
+    "password": "root",
+    "name": "mysqlDs",
+    "user": "root",
+    "connector": "mysql"
   }
 }
