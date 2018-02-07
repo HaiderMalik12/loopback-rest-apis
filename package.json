@@ -10,7 +10,8 @@
     "start": "node .",
     "posttest": "npm run lint && nsp check",
     "dev": "nodemon .",
-    "automigrate": "node bin/automigrate.js"
+    "automigrate": "node bin/automigrate.js",
+    "autoupdate": "node bin/autoupdate.js"
   },
   "dependencies": {
     "compression": "^1.0.3",
