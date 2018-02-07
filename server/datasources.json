@@ -18,5 +18,12 @@
     "name": "mysqlDs",
     "user": "root",
     "connector": "mysql"
+  },
+  "postgresDs": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "lb_db",
+    "name": "postgresDs",
+    "connector": "postgresql"
   }
 }

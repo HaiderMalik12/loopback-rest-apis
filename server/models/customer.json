@@ -12,6 +12,9 @@
     },
     "licenceNo": {
       "type": "string"
+    },
+    "passportNo": {
+      "type": "string"
     }
   },
   "validations": [],
