@@ -4,7 +4,7 @@
 'use strict';
 
 const app = require('../server/server');
-const ds = app.datasources.postgresDs;
+const ds = app.datasources.mysqlDs;
 
 ds.automigrate(['Customer'], (err) => {
   if (err) {

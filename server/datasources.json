@@ -3,13 +3,6 @@
     "name": "db",
     "connector": "memory"
   },
-  "mongodbDs": {
-    "host": "localhost",
-    "port": 27017,
-    "database": "lb_db",
-    "name": "mongodbDs",
-    "connector": "mongodb"
-  },
   "mysqlDs": {
     "host": "localhost",
     "port": 3306,
@@ -18,12 +11,5 @@
     "name": "mysqlDs",
     "user": "root",
     "connector": "mysql"
-  },
-  "postgresDs": {
-    "host": "localhost",
-    "port": 5432,
-    "database": "lb_db",
-    "name": "postgresDs",
-    "connector": "postgresql"
   }
 }
