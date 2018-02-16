@@ -49,5 +49,9 @@
   "EmailAddress": {
     "dataSource": "mysqlDs",
     "public": false
+  },
+  "Order": {
+    "dataSource": "mysqlDs",
+    "public": true
   }
 }

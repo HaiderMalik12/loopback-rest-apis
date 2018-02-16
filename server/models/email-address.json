@@ -1,4 +1,4 @@
- {
+{
   "name": "EmailAddress",
   "base": "Model",
   "idInjection": true,
@@ -6,10 +6,10 @@
     "validateUpsert": true
   },
   "properties": {
-    "id":{
+    "id": {
       "type": "string",
-      "defaultFn": "uuid",
-      "id": true
+      "id": true,
+      "defaultFn": "uuid"
     },
     "label": {
       "type": "string",

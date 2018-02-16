@@ -6,7 +6,7 @@
 const app = require('../server/server');
 const ds = app.datasources.mysqlDs;
 
-ds.automigrate(['Customer'], (err) => {
+ds.automigrate(['Customer','Order'], (err) => {
   if (err) {
     throw err;
   }
