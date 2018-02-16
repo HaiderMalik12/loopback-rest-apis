@@ -21,6 +21,12 @@
       "type": "belongsTo",
       "model": "Customer",
       "foreignKey": ""
+    },
+    "items": {
+      "type": "hasMany",
+      "model": "Item",
+      "foreignKey": "",
+      "through": "OrderItem"
     }
   },
   "acls": [],

@@ -53,5 +53,13 @@
   "Order": {
     "dataSource": "mysqlDs",
     "public": true
+  },
+  "Item": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "OrderItem": {
+    "dataSource": "mysqlDs",
+    "public": true
   }
 }
