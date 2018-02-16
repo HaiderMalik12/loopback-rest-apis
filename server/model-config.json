@@ -39,7 +39,11 @@
     "dataSource": null
   },
   "Customer": {
-    "dataSource": "postgresDs",
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "Address": {
+    "dataSource": "mysqlDs",
     "public": true
   }
 }

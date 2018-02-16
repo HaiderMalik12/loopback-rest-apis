@@ -1,0 +1,24 @@
+{
+  "name": "Address",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

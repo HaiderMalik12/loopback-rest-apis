@@ -9,16 +9,20 @@
     "name": {
       "type": "string",
       "required": true
-    },
-    "licenceNo": {
-      "type": "string"
-    },
-    "passportNo": {
-      "type": "string"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "address":{
+      "type": "embedsOne",
+      "model" : "Address",
+      "property" : "customerAddress",
+      "options":{
+        "forceId" : false,
+        "validate": "true"
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
