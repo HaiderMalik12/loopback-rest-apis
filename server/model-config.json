@@ -44,6 +44,10 @@
   },
   "Address": {
     "dataSource": "mysqlDs",
-    "public": true
+    "public": false
+  },
+  "EmailAddress": {
+    "dataSource": "mysqlDs",
+    "public": false
   }
 }

@@ -13,13 +13,22 @@
   },
   "validations": [],
   "relations": {
-    "address":{
+    "address": {
       "type": "embedsOne",
-      "model" : "Address",
-      "property" : "customerAddress",
-      "options":{
-        "forceId" : false,
+      "model": "Address",
+      "property": "customerAddress",
+      "options": {
+        "forceId": false,
         "validate": "true"
+      }
+    },
+    "emails": {
+      "type": "embedsMany",
+      "model": "EmailAddress",
+      "property": "emailList",
+      "options": {
+        "forceId": false,
+        "validate": true
       }
     }
   },
