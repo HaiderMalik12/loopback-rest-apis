@@ -1,0 +1,32 @@
+{
+  "name": "CreditCard",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cardName": {
+      "type": "string",
+      "required": true
+    },
+    "cardNo": {
+      "type": "string",
+      "required": true
+    },
+    "expiryDate": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "customer": {
+      "type": "belongsTo",
+      "model": "Customer",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

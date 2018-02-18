@@ -61,5 +61,9 @@
   "OrderItem": {
     "dataSource": "mysqlDs",
     "public": true
+  },
+  "CreditCard": {
+    "dataSource": "mysqlDs",
+    "public": true
   }
 }
