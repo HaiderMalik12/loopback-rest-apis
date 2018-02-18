@@ -3,7 +3,19 @@
 const app = require('../server/server');
 const ds = app.datasources.mysqlDs;
 
-ds.autoupdate(['Customer','Order','OrderItem', 'Item','CreditCard'], err => {
+const models = [
+  'Customer',
+  'Order',
+  'OrderItem',
+  'Item',
+  'CreditCard',
+  'User',
+  'AccessToken',
+  'ACL',
+  'RoleMapping',
+  'Role'
+];
+ds.autoupdate(models, err => {
   if (err) throw err;
   console.log('models synced!');
   ds.disconnect();
