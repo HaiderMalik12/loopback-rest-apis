@@ -13,7 +13,8 @@ const models = [
   'AccessToken',
   'ACL',
   'RoleMapping',
-  'Role'
+  'Role',
+  'Message'
 ];
 ds.autoupdate(models, err => {
   if (err) throw err;

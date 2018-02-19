@@ -16,7 +16,8 @@ const models = [
   'AccessToken',
   'ACL',
   'RoleMapping',
-  'Role'
+  'Role',
+  'Message'
 ];
 ds.automigrate(models, (err) => {
   if (err) {
